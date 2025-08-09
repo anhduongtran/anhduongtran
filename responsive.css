@@ -1,0 +1,244 @@
+@media screen and (max-width: 380px) {
+  header .nav1 {
+    font-size: 60%;
+  }
+  
+  .section1 {
+    margin-top: 3%;
+  }
+  .section1 img {
+    padding-top: 3%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    font-size: 60%;
+    padding-top: 9%;
+  }
+  
+  body:not(.contactpage) {
+  margin: 0;
+  font-family: "Inria Sans", sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 330px;
+  width: 100%;
+}
+  
+  .nav1 button {
+    height: 25px;
+    width: 30px;
+  }
+  .logo {
+    padding-top: 1.5%;
+    width: 8%;
+  }
+
+  .section1 {
+    display: flex;
+    padding-top: 8%;
+    max-width: 95%;
+    margin-bottom: 25%;
+  }
+
+  .section1 img {
+    width: 27%;
+    height: 70%;
+    padding-left: 2%;
+    margin: 10% 0 0 0;
+  }
+  
+  .section1 div {
+    width: 55%;
+    margin: 4% 0 0 8%;
+    height: 170px;
+    padding-left: 10%;
+    border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+    font-size: 80%;
+  }
+  
+  .section2 img {
+    width: 50%;
+    text-align: center;
+    box-shadow: 20px 10px rgba(60, 166, 166, 0.5), -20px -10px #f2e3d5;
+    display: block;
+    margin: 8% auto 0 auto;
+  }
+
+  .section2 {
+    padding: 2% 3% 3% 8%;
+    clear: right;
+    margin-top: 15%;
+    background-size: 100%;
+}
+  .section2 p {
+    width: 100%;
+    display: block;
+    margin: 9% auto 0 auto;
+  }
+  
+  #section3 {
+    width: 92%;
+}
+  
+  #section3 figure {
+    width: 70%;
+  margin-right: 15%;
+    margin-left: 19%;  
+  }
+
+  #section4 figure {
+    width: 70%;
+    display: block;
+    margin: 8% auto 0 auto;
+    text-align: center;
+  }
+  
+  .titles {
+    width: 100%;
+  }
+
+  section h1 {
+    width: 60%;
+  }
+  
+  footer p {
+    width: 75%;
+    text-align: left;
+    padding-left: 2%;
+  }
+
+  footer nav a img {
+    width: 8%;
+  }
+  .contact span {
+    display: block;
+    padding-left: 13%;
+    width: 90%;
+  }
+  .contact img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+  
+
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 860px) {
+  body {
+    font-size: 90%;
+    padding-top: 4%;
+  }
+  
+  body:not(.contactpage) {
+  margin: 0;
+  font-family: "Inria Sans", sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  width: 100%;
+}
+  .logo {
+    padding-top: 2%;
+    width: 9%;
+  }
+   .section1 {
+    display: flex;
+    padding-top: 10.5%;
+        max-width: 95%;
+    margin-bottom: 25%;
+  }
+
+  .section1 img {
+    width: 27%;
+    padding-left: 2%;
+    margin: 5% 0 0 0;
+  }
+  
+  .section1 div {
+    width: 55%;
+    margin: 4% 0 0 12%;
+    padding-left: 8%;
+    padding-top: 8%;
+    border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+    font-size: 80%;
+  }
+
+  .section2 img {
+    width: 20%;
+    margin-top: 3%;
+  }
+
+  .section2 {
+    padding: 0;
+    margin: 0 0 0 3%;
+      width: 97%;
+  }
+
+  .section2 p {
+    width: 50%;
+    padding: 0;
+  }
+
+  footer p {
+    width: 75%;
+    text-align: left;
+    padding-left: 2%;
+  }
+
+  footer nav a img {
+    width: 9%;
+  }
+  .contact span {
+    display: block;
+    padding-left: 13%;
+    width: 90%;
+  }
+  .contact img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+  body:not(.contactpage) {
+  margin: 0;
+  font-family: "Inria Sans", sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+  width: 100%;
+}
+  
+  .section1 {
+    display: flex;
+    padding-top: 10%;
+        max-width: 90%;
+    margin-bottom: 19%;
+  }
+
+  .section1 img {
+    width: 27%;
+    padding-left: 2%;
+    margin: 5% 0 0 0;
+  }
+  
+  .section1 div {
+    width: 55%;
+    margin: 5% 0 0 12%;
+    padding-left: 8%;
+    padding-top: 10%;
+    margin-left: 15%;
+    border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+    font-size: 80%;
+  }
+}
+
